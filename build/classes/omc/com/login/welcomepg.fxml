@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="omc.com.login.WelcomepgController">
+   <children>
+      <Label layoutX="109.0" layoutY="84.0" text="NEW ERA SECONDARY SCHOOL " textFill="#e91172">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="162.0" layoutY="117.0" prefHeight="46.0" prefWidth="321.0" text="MANAGEMENT SYSTEM" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="218.0" layoutY="357.0" text="Developed by Corper Mayor" />
+      <Label fx:id="wait" layoutX="133.0" layoutY="295.0" text="Pls wait..." />
+      <ProgressBar fx:id="jprogress1" layoutX="133.0" layoutY="253.0" prefHeight="36.0" prefWidth="321.0" progress="0.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="419.0" prefWidth="599.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="omc.com.about.AboutController">
+   <top>
+      <Label text="AboutThisApp" textFill="WHITE" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="164.0" layoutY="23.0" text="NESS MANAGEMENT SYSTEM">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="248.0" layoutY="50.0" text="(VERSION 1.0)">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="209.0" layoutY="88.0" text="THIS APP WAS DEVELOPED BY " />
+            <Label layoutX="134.0" layoutY="112.0" text="CORPER MAYOR WITH STATE CODE NO: AN/19A/1187 " />
+            <Label layoutX="43.0" layoutY="144.0" text="This App is capable of handling the record of both students and staffs of NESS, Nteje, Oyi LGA" />
+            <Label layoutX="179.0" layoutY="170.0" text="For Any Complain, Question or Correction " />
+            <Label layoutX="263.0" layoutY="226.0" text="Pls CAll:" />
+            <Label layoutX="248.0" layoutY="250.0" text="07037919786" />
+            <Label layoutX="174.0" layoutY="328.0" text="OYELEYE CORNELIUS MAYOWA (MAYOR)">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="201.0" layoutY="343.0" text="CEO OMC-GROUP OF DEVELOPERS" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
